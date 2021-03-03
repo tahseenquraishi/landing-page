@@ -1,0 +1,46 @@
+.brand-box {
+    padding: 100px 100px 30px 100px;
+    border-radius: 15px;
+    background-color: #2A9EDA;
+    color: #ffffff;
+}
+
+.brand-box h2{
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.brand-section {
+    padding: 50px 85px;
+    background-color: #ffffff;
+}
+
+.clay-img {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.clay-wrapper {
+    position: relative;
+    height: 230px
+}
+
+@media only screen and (max-width: 768px) {
+    .brand-box {
+        padding: 30px;
+        border-radius: 0px;
+    }
+
+    .brand-section {
+        padding: 0px;
+    }
+
+    .clay-img {
+        position: unset;
+    }
+
+    .clay-wrapper {
+        height: unset;
+    }
+}

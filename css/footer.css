@@ -1,0 +1,80 @@
+footer {
+    background-color: #204866;
+    padding: 100px 85px 0px 85px;
+}
+
+.logo-wrapper {
+    display: inline-block;
+    text-align: center;
+}
+
+.logo-wrapper h3 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.logo-wrapper img {
+    width: 40px;
+}
+
+.refyne-about {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.refyne-info-wrapper {
+    padding-right: 90px;
+}
+
+.footer-list-wrapper ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.footer-list-wrapper ul a {
+   text-decoration: none;
+   color: #ffffff;
+}
+
+.footer-heading {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+
+.footer-top {
+    border-bottom: 1px solid #496982;
+    padding-bottom: 40px;
+}
+
+.footer-bottom {
+    color: #ffffff;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    footer {
+        padding: 50px 20px 0px 20px;
+    }
+
+    .refyne-info-wrapper {
+        padding-right: 20px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+}

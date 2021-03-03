@@ -1,0 +1,13 @@
+.hidden-charges-section {
+    padding: 100px 100px 30px 100px;
+}
+
+.blank-book {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .hidden-charges-section {
+        padding: 30px 20px;
+    }
+}

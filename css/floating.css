@@ -1,0 +1,84 @@
+.floating-area {
+    background-color: #1F4663;
+    padding: 20px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    box-shadow: 0px 0px 10px #7d7d7d9c;
+}
+
+.floating-btn {
+    color: #ffffff;
+    background-color: #2A9EDA;
+    border-radius: 38px;
+    font-size: 10px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.floating-btn:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.cloured-logo-img {
+    width: 60px;
+}
+
+.floating-detail {
+   padding: 0px 20px 0px 10px;
+}
+
+.floating-detail h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.floating-detail p {
+    font-size: 12px;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .floating-area {
+        border-radius: 0px;
+        width: 100%;
+        padding: 20px;
+        bottom: 0px;
+        right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0px 0px 10px #7d7d7d9c;
+    }
+
+    .floating-btn {
+        border-radius: 38px;
+        font-size: 9px;
+        padding: 8px 15px;
+    }
+    
+    .cloured-logo-img {
+        width: 45px;
+    }
+    
+    .floating-detail {
+       padding: 0px 15px 0px 7px;
+    }
+    
+    .floating-detail h5 {
+        font-size: 13px;
+    }
+    
+    .floating-detail p {
+        font-size: 10px;
+    }
+    
+}

@@ -1,0 +1,125 @@
+@import url("navbar.css");
+@import url("header.css");
+@import url("partner.css");
+@import url("master-section.css");
+@import url("footer.css");
+@import url("brand.css");
+@import url("faq.css");
+@import url("hidden-charges.css");
+@import url("video.css");
+@import url("benefit.css");
+@import url("floating.css");
+@import url("ceo-speak.css");
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #F8FCFE;
+}
+
+.btn-primary {
+    padding: 10px 35px;
+    border-radius: 8px;
+    background-color: #2A9EDA;
+    border: none;
+    font-size: 0.9rem;
+    transition: 0.5s;
+}
+
+.btn-primary:hover {
+    background-color: #2A9EDA;
+    transform: scale(1.1);
+}
+
+.btn-outline {
+    border: 2px solid #204866;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    color: #204866;
+    transition: 0.5s;
+    padding: 11px 20px;
+}
+
+.btn-outline:hover {
+    background-color: #204866;
+    color: #ffffff;
+    transform: scale(1.05);
+
+}
+
+.heading {
+    font-size: 2.62rem;
+    font-weight: 700;
+    color: #204866;
+}
+
+
+.heading-2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #204866;
+}
+
+.heading-3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #204866;
+}
+
+.heading-4 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #204866;
+}
+
+
+.para {
+    color: #204866;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 0.9rem;
+}
+
+.playstore-btn {
+    width: 140px;
+    transition: 0.5s;
+}
+
+.playstore-btn:hover {
+    width: 140px;
+    transform: scale(1.05);
+}
+
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+    .heading {
+        text-align: center;
+    }
+
+    .para {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .text-center-md {
+        text-align: center;
+    }
+
+    .playstore-btn {
+        width: 122px;
+    }
+}
+
