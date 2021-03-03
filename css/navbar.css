@@ -2,7 +2,12 @@
     background-color: #ffffff;
     padding: 17px 75px;
     box-shadow: 0px 0px 10px gainsboro;
+    transition: top 1s;
 }
+
+.navbar.hide {
+    top: -100px
+ }
 
 .text-link {
     margin-right: 30px;
